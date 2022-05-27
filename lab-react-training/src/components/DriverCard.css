@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.DriverCard {
+  display: flex;
+  height: 80px;
+  width: 60%;
+  margin-bottom: 50px;
+  background-color: #242F9B;
+  height: 164px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+
+.infoDriver {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 40px;
+}
+
+#driverName {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+#ratingCar {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+#carDetails {
+  color: white;
+}
